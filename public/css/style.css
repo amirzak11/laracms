@@ -1,0 +1,149 @@
+
+h1 {
+    font-family: 'Century Gothic';
+    margin: 30px auto 30px auto;
+    color: #09fbd2;
+    width: 100%;
+    text-align: center;
+}
+
+ul.menu {
+
+    padding: 0;
+    background-color: #fff;
+    list-style: none;
+    margin: 10px 20px;
+    width: 80%;
+    font-family: 'Century Gothic';
+    clear: both;
+    display: table;
+}
+ul.menu .list {
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    vertical-align: sub;
+    background-color: #fff;
+    clear: both;
+}
+ul.menu .list:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 200px;
+    top: 17px;
+    padding: 0px 5px;
+    color: #555;
+}
+ul.menu .list:before {
+    content: '\f07b';
+    font-family: FontAwesome;
+    position: absolute;
+    right: 5px;
+    top: 17px;
+    padding: 0px 5px;
+    color: #555;
+}
+ul.menu .list a {
+    text-decoration: none;
+    color: #555;
+
+    margin-right: 30px;
+    padding: 17px 10px 17px 45px;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+
+}
+    ul.menu .list a:hover {
+
+        transition: 300ms all;
+        color: #000;
+        font-size: 15px;
+    }
+ul.menu .list .items {
+    height: 0px;
+    width: 70%;
+    overflow: hidden;
+}
+ul.menu .list .items a {
+    padding: 17px;
+}
+ul.menu .list .items a:hover {
+    background-color: #fff;
+    color: #555;
+    transition: 300ms all;
+}
+ul.menu .list:last-child {
+    border-bottom: none;
+}
+ul.menu .active:after {
+    content: "\f106";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 200px;
+    top: 17px;
+    padding: 0px 5px;
+    color: #555;
+}
+ul.menu .active:before {
+    content: '\f07c';
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    padding: 0px 5px;
+    color: #555;
+}
+ul.menu .active > .items {
+    display: block;
+    background: #23313f;
+    padding: 0px;
+    height: auto;
+    color: #555;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 200ms;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+ul.menu .active > .items li {
+    padding: 0px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+ul.menu .active > .items li:last-child {
+    border-color: transparent;
+
+    padding-bottom: 0px;
+}
+ul.menu .active > .items .active > .items {
+
+}
+ul.menu .active > a {
+    color: #17a2b8;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-weight: bold;
+}
+ul.menu .active .list {
+    background: #eee;
+
+}
+ul.menu .active .list a {
+    color:#555;
+    padding: 17px 0px 17px 45px;
+}
+.div_line{
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px  #ddd;
+
+
+    overflow: hidden;
+}
+/* footer  */

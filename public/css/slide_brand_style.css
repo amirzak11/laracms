@@ -1,0 +1,281 @@
+
+.slide-a {
+    margin: 0px auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.brand-m > li > a >.slide-a > img {
+    margin: 0 auto;
+    width: 100%;
+    height: 130px;
+
+    transition: all , .3s;
+}
+
+.text {
+    font-size: 13px;
+    color: #222;
+    vertical-align: top;
+    margin: 0px auto;
+    width: 80%;
+    text-align: right;
+}
+
+a > .price {
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+}
+
+a > .price > span {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 5px;
+    color: #555;
+}
+a > .price > .discount{
+    background-color: #ef394e;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 15px;
+    padding-top: 5px;
+    font-size: 12px;
+    border-radius: 50px;
+}
+a > .price > .price_subline{
+
+    text-decoration: line-through;
+}
+#slider-brand {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff;
+    max-width: 1310px;
+    box-shadow: 0px 0px 5px #ddd;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    height: 220px;
+    padding: 0px;
+
+}
+#slider-brand > .header-title {
+    margin: 10px 0px;
+    direction: rtl;
+}
+
+#slider-brand > .header-title > .cat-title {
+    display: inline-block;
+    padding: 0px 20px;
+    border-bottom:1px solid #ff0000;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #555;
+
+
+}
+
+#slider-brand > .header-title > .title-line {
+    display: inline-block;
+    padding-right: 10px;
+    width: 85%;
+    border-bottom: 1px solid #ccc;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+#slider-brand .brand-m {
+    position: relative;
+    padding: 0px 20px;
+
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 20px;
+    list-style: none;
+}
+
+#slider-brand .brand-m li a {
+    display: block;
+}
+
+#slider-brand .brand-m li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 0px;
+    background-color: #fff;
+
+    margin: 0px 5px;
+    margin-bottom: 100px;
+    width: 232.5px;
+    height: 130px;
+
+    overflow: hidden;
+    transition: all .5s;
+}
+
+#slider-brand .brand-m li:hover {
+    box-shadow: 0px 0px 2px #ddd;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+#slider-brand .brand-m li .galb {
+    position: absolute;
+    top: 0px;
+    color: #ff5252;
+    font-size: 20px;
+    left: -50px;
+    height: 32px;
+    transition: all , .2s;
+}
+#slider-brand .brand-m li:hover .galb {
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+.slider-brand > a#control_prev, .slider-brand> a#control_next {
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+    display: block;
+    padding: .7% 1%;
+    width: auto;
+    border:1px solid #eee;
+    background-color: rgba(0, 0, 0, .1);
+    border-left: none;
+    height: auto;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+a#control_prev > i:hover, a#control_next > i:hover{
+    color:#777;
+}
+
+a#control_prev > i, a#control_next > i {
+    font-size: 60px;
+    color: #aaa;
+    transition: all , .5s;
+}
+
+a#control_prev:hover, a#control_next:hover {
+
+    -webkit-transition: all 0.2s ease;
+}
+
+a#control_prev {
+
+    border-radius: 5px 0px 0px 5px;
+}
+
+a#control_next {
+    left: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+#slider-brand_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+
+
+/*Styles for screen 600px and lower*/
+@media only screen and (max-width: 1200px) {
+    .title-line {
+        display: none;
+    }
+
+    #slider-brand {
+        height: 280px;
+    }
+
+    #slider-brand .brand-m li {;
+        width: 240px;
+
+    }
+
+    .brand-m > li > a >.slide-a > img {
+        margin: 0 auto;
+        width: 80%;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #slider-brand > .header-title > .cat-title {
+        font-size: 10px;
+        margin: 0px;
+    }
+    .title-line {
+        display: none;
+    }
+    #slider-brand {
+        padding: 0px;
+        height: 180px;
+    }
+    .brand-m > li > a >.slide-a > img {
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        height: 80px;
+    }
+    #slider-brand .brand-m{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #slider-brand .brand-m li {
+        width: 31%;
+        margin-left: 5px;
+        padding: 0px;
+        height: 105px;
+    }
+    .slide-a {
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+
+
+    }
+    .text {
+        font-size: 8px;
+        margin: 0px auto;
+        padding: 3px;
+    }
+    a > .price {
+
+        font-size: 8px;
+        padding: 5px 20px;
+    }
+    a > .price > .discount{
+        font-size: 8px;
+
+        padding: 5px 10px;
+        padding-top: 7px;
+    }
+    a > .price > .price_subline{
+        font-size: 8px;
+    }
+    .brand-m > li > a >.slide-a > img:hover {
+        margin: 0 auto;
+        width: 100%;
+        transition: 1s;
+        
+
+
+    }
+
+}

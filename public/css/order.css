@@ -1,0 +1,397 @@
+.order-header{
+    box-shadow: 0px 0px 5px #ddd;
+    background-color: #fff;
+}
+.order-header > .c-order-header{
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+.order-header > .c-order-header img{
+    width: 200px;
+
+}
+.shipping-header{
+    text-align: right;
+}
+.shipping-header > h1 {
+    font-size: 20px;
+    color: #888;
+    padding: 20px;
+}
+.content{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.o-page__content{
+    width: 100%;
+    max-width: 1365px;
+    margin: 0px auto;
+    position: relative;
+    padding: 18px;
+    padding-top: 0px;
+
+}
+
+
+.o-page_all{
+    text-align: center;
+}
+.o-page_all> form{
+    display: inline-block;
+}
+
+
+
+.shipping-data , .o-page__aside{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+ .shipping-data{
+    width: 74%;
+    padding-left: 18px;
+}
+form >.shipping-data{
+    width: 100%;
+    padding-left: 18px;
+}
+ .shipping-data > .address-section{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    border:1px solid #ddd;
+    text-align: right;
+    padding:10px 20px;
+}
+ .shipping-data > .address-section div.receiver > p{
+    font-size: 15px;
+     display: inline-block;
+    color: #333;
+}
+.shipping-data > .address-section div > p > input{
+    border-radius: 5px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.shipping-data > .address-section div.receiver > input{
+    display: inline-block;
+    text-align: center;
+}
+ .shipping-data > .address-section div > p >span{
+    margin: 0 15px;
+    border-left:1px solid #ccc;
+}
+ .shipping-data > .address-section div.address > p{
+    font-size: 12px;
+}
+ .shipping-data > .address-section div > p{
+    padding: 0px;
+    margin: 5px;
+    color: #666;
+}
+ .shipping-data > .shipping-data-form{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    border:1px solid #ddd;
+    text-align: right;
+    padding:10px 20px;
+    margin: 10px 0px;
+}
+ .shipping-data > .shipping-data-form >.c-checkout__group > .image_product >img{
+    width: 100px;
+}
+
+ .shipping-data > .shipping-data-form > .c-checkout-time-table{
+
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table > h6{
+    padding: 5px;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table > h6 > i{
+    color: #555;
+    padding-left: 10px;}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table >.c-checkout-time-table__table-header-container > ul{
+    background: #eee;
+    padding: 0px;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table >.c-checkout-time-table__table-header-container > ul > .c-checkout-time-table__day{
+    display: inline-block;
+    padding: 0px ;
+    margin: 0px ;
+    margin-left: -4.7px;
+    border:1px solid #cccc;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table >.c-checkout-time-table__table-header-container > ul > .c-checkout-time-table__day > .c-checkout-time-table__day-name{
+    font-size: 15px;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table >.c-checkout-time-table__table-header-container > ul > .c-checkout-time-table__day > .c-checkout-time-table__date{
+    color: #888;
+    font-size: 13px;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table > .c-checkout-additional-options{
+    border:1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table > .c-checkout-additional-options > p{
+    margin: 0px;
+    color: #f57f17;
+}
+ .shipping-data > .shipping-data-form > .c-checkout-time-table > .c-checkout-additional-options > p > i{
+    color: #fff;
+    background: #f1a417;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 200px;
+}
+ .shipping-data > .c-shipment-page__to-payment-sticky {
+    background: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    direction: rtl;
+}
+ .shipping-data > .c-shipment-page__to-payment-sticky > .c-shipment-page__to-payment-sticky-container{
+    text-align: right;
+    padding: 20px;
+}
+ .shipping-data > .c-shipment-page__to-payment-sticky > .c-shipment-page__to-payment-sticky-container > a{
+    border:1px solid red;
+    text-decoration: none;
+    background: none;
+    border-radius: 5px;
+    color: red;
+    font-size: 18px;
+    padding: 1px 50px;
+    display: inline-block;
+}
+ .shipping-data > .c-shipment-page__to-payment-sticky > .c-shipment-page__to-payment-sticky-container > .c-shipment-page__to-payment-price-report{
+    display: inline-block;
+    float: left;
+}
+ .shipping-data > .c-shipment-page__to-payment-sticky > .c-shipment-page__to-payment-sticky-container > .c-shipment-page__to-payment-price-report > p{
+    font-size: 11px;
+    color: #888;
+    margin: 0px;
+}
+ .shipping-data > .c-shipment-page__to-payment-sticky > .c-shipment-page__to-payment-sticky-container > .c-shipment-page__to-payment-price-report > h6{
+    font-size: 15px;
+}
+ .o-page__aside{
+    background-color: #fff;
+    border-radius: 5px;
+    border:1px solid #e6e6e8;
+    width: 25%;
+}
+
+div.left-orders .seller{
+    margin: 5px 10px;
+    border-bottom:1px solid #ddd;
+}
+
+
+div.left-orders .seller_b{
+    border:none;
+    margin: 5px 10px;
+}
+
+div.left-orders .seller_b > p{
+    text-align: right;
+    margin: 0px;
+    font-size: 13px;
+    padding: 8px 0px;
+    position: relative;
+}
+div.left-orders > .total-price{
+    background-color: rgba(245,247,250,.7);
+
+}
+div.left-orders > div.seller_b > p > span{
+    font-weight: bold;
+    padding: 2px;
+    position: absolute;
+    left:0px;
+}
+
+div.left-orders > div.seller > p {
+    text-align: right;
+    margin: 0px;
+    font-size: 13px;
+    padding: 8px 0px;
+    position: relative;
+}
+
+div.left-orders > div.seller > .sum_p{
+    color: #aaa;
+}
+
+div.left-orders > div.seller > p > span{
+    font-weight: bold;
+    padding: 2px;
+    position: absolute;
+    left:0px;
+}
+div.left-orders > div.guaranty > p > i{
+    color: #a6a6a6;
+    vertical-align: top;
+    float: right;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+}
+div.left-orders > div.guaranty > p{
+    padding: 10px 0px;
+    margin: 0px;
+    text-align: right;
+    font-weight: bold;
+}
+div.left-orders > div.guaranty > p > span{
+    display: inline-block;
+;
+    line-height: 1.4;
+    max-width: 250px;
+
+    text-align: right;
+}
+div.left-orders > .list-order > img {
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+div.left-orders >.total-price > .main-price {
+    color: #bbb;
+    text-decoration:line-through;
+    font-size: 15px;
+    margin-left: 20px;
+    vertical-align: top;
+
+}
+div.left-orders >.total-price > .main-price span{
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #fff;
+    vertical-align: top;
+    margin-right: 10px;
+    border-radius: 20px;
+    background: #ef394e;
+    line-height: normal;
+    display: inline-block;
+
+}
+
+div.left-orders > .profit {
+
+    padding: 0px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+div.left-orders > .profit > .right {
+    background-color: #ff7272;
+    font-size: 10px;
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+
+    margin-left: -5px;
+}
+
+div.left-orders > .profit > .left {
+    background-color: #ff5252;
+    font-size: 10px;
+
+    padding: 5px;
+    display: inline-block;
+    color: #fff;
+}
+
+div.left-orders > .total-price {
+    font-weight: bolder;
+    padding: 5px;
+    text-align: left;
+    border-bottom: none;
+}
+
+div.left-orders > .total-price > p > span {
+
+    text-align: left;
+    font-size: 14px;
+}
+
+div.left-orders > .total-price > p {
+    color: #777;
+
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    padding: 3px 10px;
+    margin: 0px;
+}
+
+
+div.left-orders .total-price > .send {
+    margin: 0px 0px;
+    color: #fff;
+    border-bottom: none;
+    text-align: center;
+}
+
+div.left-orders >.total-price > .send > a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    color: #f6f6f8;
+    border-radius: 10px;
+    background-color: #ef394e;
+    width: 80%;
+    border-bottom: none;
+}
+.post-step{
+    position: relative;
+}
+.a-post-step {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    right: 0px;
+    display: block;
+    margin: 0px auto;
+    width: 60.2%;
+    text-align: center;
+}
+.a-post-step > div {
+    position: relative;
+    display: inline-block;
+    left: 0px;
+    text-align: center;
+}
+.a-post-step > div > span , .a-post-step > div > i  {
+    display: block;
+}
+.a-post-step > div > i{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: -8px;
+    color: #aaa;
+}
+.a-post-step > div > span{
+        margin:10px 0px;
+        color: #888;
+}
+.a-post-step > .payment-step {
+    margin: 0 250px;
+}

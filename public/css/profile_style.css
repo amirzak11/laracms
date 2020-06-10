@@ -1,0 +1,741 @@
+.o-page__profile {
+
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.o-page__aside, .o-page__content {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.o-page__aside {
+    width: 22%;
+    padding: 20px;
+}
+
+.o-page__content {
+    width: 77%;
+}
+
+.o-page__content > h1 {
+    color: #888;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: IRANYekanWeb;
+}
+
+.c-profile-status-row {
+    width: 100%;
+    border: 1px solid #eee;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+.c-profile-status-row > .c-profile-status-col {
+    text-align: right;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    width: 50%;
+    padding: 10px;
+    padding-right: 20px;
+    margin: -2px;
+    display: inline-block;
+}
+
+.c-profile-status-row > .c-profile-status-col > p, .c-profile-status-row > .c-profile-status-col > h4 {
+    padding: 3px 10px;
+    color: #888;
+    margin: 0px;
+
+}
+
+.c-profile-status-row > .c-profile-status-col > h4 {
+    font-size: 20px;
+
+}
+.c-profile-status-col > input{
+    margin: 0 auto;
+    width: 80%;
+}
+.edit_profile {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.edit_profile a {
+    border-bottom: 1px dashed;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.edit_profile a i {
+
+    padding-top: 6px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.c-profile-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.c-profile-box > .c-profile-box-header {
+    padding: 10px;
+}
+
+.c-profile-box > .c-profile-box-header > .c-profile-box-header-content, .c-profile-box > .c-profile-box-header img {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.c-profile-box > .c-profile-box-header > .c-profile-box-header-content > p {
+    margin: 0px;
+}
+
+.c-profile-box > .c-profile-box-header > .c-profile-box-header-content {
+    padding: 5px;
+}
+
+.c-profile-box > .c-profile-box-header img {
+
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.c-profile-box__tabs {
+    background-color: #fafafa;
+    margin: 0 auto;
+    color: #888;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.c-profile-box__tabs a {
+    display: inline-block;
+    text-decoration: none;
+
+    border-top: 0px;
+    text-align: center;
+    width: 49%;
+    padding: 10px;
+}
+
+
+.c-profile-menu {
+    border: 1px solid #ccc;
+    margin: 20px 0px;
+    background-color: #fff;
+}
+
+.c-profile-menu > .c-profile-menu-row p {
+    padding: 5px 20px;
+    color: #555;
+    margin: 0px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.c-profile-menu > .c-profile-menu-row > .c-profile-menu-col {
+    color: #888;
+    padding: 7px;
+}
+
+.c-profile-menu > .c-profile-menu-row > .c-profile-menu-col:hover {
+    background-color: #f6ffff;
+    color: #1ca2bd;
+}
+
+.c-profile-menu > .c-profile-menu-row > .c-profile-menu-col a {
+
+}
+
+.c-profile-menu > .c-profile-menu-row > .c-profile-menu-col > a > i {
+    padding: 0px 20px;
+}
+
+.zip_code {
+    width: 100% !important;
+}
+
+.c-profile-status {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.c-profile-status > form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn-outline-success {
+    background-color: #00bfd6;
+    color: #fff;
+    width: 45%;
+    margin: 0 auto;
+    border: none;
+    padding: 0px;
+    border-radius: 8px;
+    border: 1px solid #1ca2bd;
+    height: 50px;
+    overflow: hidden;
+    transition: all .5s;
+
+}
+
+.btn-outline-success:hover {
+    background-color: #36cddf;
+    border: 1px solid #1ca2bd;
+}
+
+.btn-outline-success i {
+    float: right;
+    width: 100px;
+    border-radius: 50px 0px 0px 45px;
+    background-color: #36cddf;
+    font-size: 25px;
+    margin: 0px;
+    text-align: right;
+    height: 60px;
+    padding-right: 40px;
+    line-height: 50px;
+}
+
+.btn-outline-success i:hover {
+
+    text-align: right;
+}
+
+.btn-outline-success span {
+    line-height: 50px;
+}
+
+.c-profile-status-address {
+
+    padding: 5px;
+}
+
+.c-profile-address-card {
+    background-color: #fff;
+    border-radius: 5px;
+    vertical-align: top;
+    margin: 10px;
+    width: 46%;
+    display: inline-block;
+    position: relative;
+}
+
+.c-profile-address-card:before {
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, #00bfd6 48px, #ff7e7e 0) repeat-x;
+    background-size: 96px 3px;
+}
+
+.c-profile-address-card > .c-profile-address-card__desc {
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.c-profile-address-card > .c-profile-address-card__data {
+    border-top: 1px solid #eee;
+    padding: 20px;
+}
+
+.c-profile-address-card > .c-profile-address-card__desc > .js-address-full_name {
+    color: #565656;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.c-profile-address-card > .c-profile-address-card__desc > .c-checkout-address__text {
+    color: #888;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__methods {
+
+    width: 60%;
+    display: inline-block;
+}
+
+.c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__methods > li {
+    display: block;
+    color: #888;
+    font-size: 15px;
+}
+
+.c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__methods > li > i {
+    padding-left: 20px;
+    color: #ccc;
+    font-size: 25px;
+    vertical-align: top;
+}
+
+.c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__actions {
+    width: 35%;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__actions > a {
+    background-color: #eee;
+    color: #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.c-profile-status-row > .c-my-landing-page__wish-list-carousel {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    margin: 40px auto;
+    margin-top: 10px;
+}
+.c-profile-status-row > .c-my-landing-page__wish-list-carousel > .c-checkout__group{
+    width: 18%;
+    border-radius: 6px;
+    margin: 5px 10px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border:1px solid #eee;
+    box-shadow: 0px 0px 3px #eee;
+}
+.c-profile-status-row > .c-my-landing-page__wish-list-carousel > .c-checkout__group > .image_interest > img{
+    width: 100%;
+    height: 180px;
+    max-height: 200px;
+}
+
+.c-profile-status-row > .c-my-landing-page__wish-list-carousel > .c-checkout__group > .image_interest > .item_name{
+    color: #555;
+    padding: 20px;
+    text-align: right;
+}
+.item_discount{
+    text-align: left;
+    margin: 0px;
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    padding: 0px;
+}
+.item_price {
+    text-align: left;
+    margin: 0px;
+
+}
+.item_price > p{
+    display: inline-block;
+    margin: 0px;
+    color: #888;
+    text-decoration: line-through;
+}
+.item_price > span{
+    background-color: #ef394e;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: top;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:2px 15px;
+    padding-top: 5px;
+}
+
+@media (max-width: 640px) {
+
+    .o-page__profile {
+        width: 100%;
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+
+    .o-page__aside {
+        width: 42%;
+        padding: 20px;
+    }
+
+    .o-page__content {
+        width: 55%;
+
+    }
+
+    .o-page__content > h1 {
+        color: #888;
+        text-align: right;
+        padding-right: 10px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        font-family: IRANYekanWeb;
+    }
+
+    .c-profile-status-row {
+        width: 100%;
+        border: 1px solid #eee;
+        background-color: #fff;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .c-profile-status-row > .c-profile-status-col {
+        text-align: right;
+        vertical-align: top;
+        border-bottom: 1px solid #eee;
+        border-left: 1px solid #eee;
+        width: 100%;
+        padding: 2px;
+        padding-right: 20px;
+        margin: -2px;
+        display: inline-block;
+    }
+
+    .c-profile-status-row > .c-profile-status-col > p, .c-profile-status-row > .c-profile-status-col > h4 {
+        padding: 3px 10px;
+        color: #888;
+        margin: 0px;
+        font-size: 11px;
+    }
+
+    .c-profile-status-row > .c-profile-status-col > h4 {
+        font-size: 10px;
+
+    }
+    .c-profile-status-col > input{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .edit_profile {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .edit_profile a {
+        border-bottom: 1px dashed;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .edit_profile a i {
+
+        padding-top: 6px;
+        padding-left: 5px;
+        vertical-align: top;
+    }
+
+    .c-profile-box {
+        background-color: #fff;
+        border: 1px solid #ccc;
+
+    }
+
+    .c-profile-box > .c-profile-box-header {
+        padding: 10px;
+    }
+
+    .c-profile-box > .c-profile-box-header > .c-profile-box-header-content, .c-profile-box > .c-profile-box-header img {
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+    .c-profile-box > .c-profile-box-header > .c-profile-box-header-content > p {
+        margin: 0px;
+    }
+
+    .c-profile-box > .c-profile-box-header > .c-profile-box-header-content {
+        padding: 5px;
+    }
+
+    .c-profile-box > .c-profile-box-header > .c-profile-box-header-content > h6 {
+        font-size: 10px;
+    }
+    .c-profile-box > .c-profile-box-header img {
+
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .c-profile-box__tabs {
+        background-color: #fafafa;
+        margin: 0 auto;
+        color: #888;
+        border-top: 1px solid #eee;
+        text-align: center;
+    }
+
+    .c-profile-box__tabs a {
+        display: inline-block;
+        text-decoration: none;
+
+        border-top: 0px;
+        text-align: center;
+        width: 100%;
+        padding: 3px;
+    }
+
+
+    .c-profile-menu {
+        border: 1px solid #ccc;
+        margin: 20px 0px;
+        background-color: #fff;
+    }
+
+    .c-profile-menu > .c-profile-menu-row p {
+        padding: 5px 10px;
+        color: #555;
+        font-size: 10px;
+        margin: 0px;
+        border-bottom: 1px solid #dddddd;
+    }
+
+
+    .c-profile-menu > .c-profile-menu-row > .c-profile-menu-col {
+        color: #888;
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .c-profile-menu > .c-profile-menu-row > .c-profile-menu-col:hover {
+        background-color: #f6ffff;
+        color: #1ca2bd;
+    }
+
+    .c-profile-menu > .c-profile-menu-row > .c-profile-menu-col a {
+
+    }
+
+    .c-profile-menu > .c-profile-menu-row > .c-profile-menu-col > a > i {
+        padding: 0px 20px;
+    }
+
+    .zip_code {
+        width: 100% !important;
+    }
+
+    .c-profile-status {
+        background-color: #fff;
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    .c-profile-status > form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .btn-outline-success {
+        background-color: #00bfd6;
+        color: #fff;
+        width: 45%;
+        margin: 0 auto;
+        border: none;
+        padding: 0px;
+        border-radius: 8px;
+        border: 1px solid #1ca2bd;
+        height: 50px;
+        overflow: hidden;
+        transition: all .5s;
+
+    }
+
+    .btn-outline-success:hover {
+        background-color: #36cddf;
+        border: 1px solid #1ca2bd;
+    }
+
+    .btn-outline-success i {
+        float: right;
+        width: 100px;
+        border-radius: 50px 0px 0px 45px;
+        background-color: #36cddf;
+        font-size: 25px;
+        margin: 0px;
+        text-align: right;
+        height: 60px;
+        padding-right: 40px;
+        line-height: 50px;
+    }
+
+    .btn-outline-success i:hover {
+
+        text-align: right;
+    }
+
+    .btn-outline-success span {
+        line-height: 50px;
+    }
+
+    .c-profile-status-address {
+
+        padding: 5px;
+    }
+
+    .c-profile-address-card {
+        background-color: #fff;
+        border-radius: 5px;
+        vertical-align: top;
+        margin: 10px;
+        width: 95%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .c-profile-address-card:before {
+        content: "";
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, #00bfd6 48px, #ff7e7e 0) repeat-x;
+        background-size: 96px 3px;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__desc {
+        padding: 10px 20px;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__data {
+        border-top: 1px solid #eee;
+        padding: 10px 20px;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__desc > .js-address-full_name {
+        color: #565656;
+        font-weight: normal;
+        font-size: 14px;
+        margin: 5px 0px;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__desc > .c-checkout-address__text {
+        color: #888;
+        font-size: 8px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__methods {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__methods > li {
+        display: block;
+        color: #888;
+        font-size: 8px;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__methods > li > i {
+        padding-left: 5px;
+        color: #ccc;
+        font-size: 15px;
+        vertical-align: top;
+    }
+
+    .c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__actions {
+        width: 35%;
+        display: inline-block;
+        text-align: left;
+
+    }
+
+    .c-profile-address-card > .c-profile-address-card__data > .c-profile-address-card__actions > a {
+        background-color: #eee;
+        color: #555;
+        font-size: 10px;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+
+
+    .c-profile-status-row > .c-my-landing-page__wish-list-carousel {
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        text-align: right;
+        margin: 40px auto;
+        margin-top: 10px;
+    }
+    .c-profile-status-row > .c-my-landing-page__wish-list-carousel > .c-checkout__group{
+        width: 42%;
+        border-radius: 6px;
+        margin: 5px 10px;
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        background-color: #fff;
+        padding: 2px;
+        border:1px solid #eee;
+        box-shadow: 0px 0px 3px #eee;
+    }
+    .c-profile-status-row > .c-my-landing-page__wish-list-carousel > .c-checkout__group > .image_interest > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .c-profile-status-row > .c-my-landing-page__wish-list-carousel > .c-checkout__group > .image_interest > .item_name{
+        color: #555;
+        padding: 5px;
+        font-size: 10px;
+        text-align: right;
+    }
+    .item_discount{
+        text-align: left;
+        margin: 0px;
+        font-weight: bold;
+        color: #333;
+        font-size: 10px;
+        padding: 0px;
+    }
+    .item_price {
+        text-align: left;
+        margin: 0px;
+
+    }
+    .item_price > p{
+        display: inline-block;
+        margin: 0px;
+        color: #888;
+        text-decoration: line-through;
+    }
+    .item_price > span{
+        background-color: #ef394e;
+        color: #fff;
+        font-size: 12px;
+        vertical-align: top;
+        font-weight: normal;
+        border-radius: 10px;
+        padding:2px 5px;
+        padding-top: 5px;
+    }
+}

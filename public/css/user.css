@@ -1,0 +1,115 @@
+.login-form {
+    margin: 10px;
+    width: 100%;
+}
+
+.login-logo img{
+
+    height: 80px;
+}
+.login-form > .s-login-form > .card {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    box-shadow: 0px 0px 1px #eee;
+}
+
+.login-form > .s-login-form {
+    text-align: right;
+    width: 50%;
+    min-width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form > .s-login-form > .card > .card-body {
+
+    padding: 10px 30px;
+}
+
+.login-form > .s-login-form > .card > .text-login {
+    width: 100%;
+    font-size: 18px;
+    color: #555;
+    padding: 10px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.login-form > .s-login-form > .card > .card-body .label-text {
+    font-size: 15px;
+    color: #666;
+}
+
+.login-form > .s-login-form > .card > .card-body .label-text > a {
+    text-align: left;
+    font-size: 12px;
+    border-bottom: 1px dashed #0fabc6;
+    float: left;
+}
+
+.login-form > .s-login-form > .card > .card-body .input-group {
+    margin: 5px 0px;
+    margin-bottom: 0px;
+}
+
+.login-form > .s-login-form > .card > .card-body .input-group input {
+    border-radius: 8px 0px 0px 8px;
+    padding: 12px;
+}
+
+.login-form > .s-login-form > .card > .card-body .btn-outline-success {
+    background-color: #00bfd6;
+    color: #fff;
+    border: none;
+    padding: 0px;
+    border-radius: 8px;
+    border:1px solid #1ca2bd;
+    height: 50px;
+    overflow:hidden;
+    transition: all .5s;
+}
+.login-form > .s-login-form > .card > .card-body .btn-outline-success:hover {
+    background-color: #36cddf;
+}
+.login-form > .s-login-form > .card > .card-body .btn-outline-success i{
+    float: right;
+    width: 100px;
+    border-radius: 50px 0px 0px 45px;
+    background-color: #36cddf;
+    font-size: 25px;
+    margin: 0px;
+    text-align: right;
+    height: 60px;
+    padding-right: 40px;
+    line-height: 50px;
+}
+.login-form > .s-login-form > .card > .card-body .btn-outline-success i:hover{
+
+    text-align: right;
+}
+.login-form > .s-login-form > .card > .card-body .btn-outline-success  span{
+    line-height: 50px;
+}
+
+.c-account-box__footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #f5fdf0;
+    border-top: 1px solid #ddd;
+}
+
+
+.login-form > .s-login-form > .card > .card-body .tip {
+    border-radius: 5px;
+    border:1px solid #f6e8a1;
+    padding: 5px 25px;
+    background-color: #fffde4;
+    color: #a37731;
+    margin-bottom: 10px;
+}
+
+.login-form > .s-login-form > .card > .card-body .tip > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
